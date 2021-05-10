@@ -12,4 +12,9 @@ public class Calculator {
         return first - second;
     }
 
+    public int multiply(int first, int second) {
+        System.out.print ("adding");
+        return first * second;
+    }
+
 }
