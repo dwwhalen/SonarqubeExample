@@ -1,5 +1,3 @@
-mvn clean compile sonar:sonar -Dsonar.login=admin -Dsonar.password=pw
+mvn test jacoco:report -Dsonar.host.url=localhost:9000 -Dsonar.login=admin -Dsonar.password=pw
 
-mvn sonar:sonar -Dsonar.login=admin -Dsonar.password=pw
-
-mvn test jacoco:report -Dsonar.login=admin -Dsonar.password=pw
+mvn clean install sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=admin -Dsonar.password=pw
