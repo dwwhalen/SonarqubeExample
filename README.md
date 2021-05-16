@@ -10,3 +10,4 @@ docker run -d --name sonarqube -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 9000
 mvn test jacoco:report -Dsonar.host.url=localhost:9000 -Dsonar.login=admin -Dsonar.password=pw
 
 mvn clean install sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login=admin -Dsonar.password=pw
+
