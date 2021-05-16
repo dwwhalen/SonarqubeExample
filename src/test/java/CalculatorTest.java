@@ -42,4 +42,10 @@ public class CalculatorTest {
     public void divideDecimalTest() {
         assertEquals(0.5, calculator.divide(3, 6), 0.0);
     }
+
+    @Test
+    public void lameTest() {
+        String THIS_isnot_AGOOD_nAmE = "";
+        assertTrue(true);
+    }
 }
